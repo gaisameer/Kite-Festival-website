@@ -653,7 +653,8 @@ position: fixed;
   
 }
 .modal-dialog{
-  margin-top:40vh;
+  /*margin-top:40vh;*/
+  align-content: center;
 }
 .modal-content {
   background-color: transparent; /*#42f486*/
