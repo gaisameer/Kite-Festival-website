@@ -924,6 +924,11 @@ td.text-right {
    
   }
   
+  img.footlogo
+  {
+    padding-left: 0px;
+  }
+
   .footRow h5{
    font-size:15px;
    margin-bottom:0px;
