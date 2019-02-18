@@ -639,21 +639,21 @@ textarea::-ms-input-placeholder
 #collapser {
   background-color: transparent;
 }
-.z-depth-4 {
+/*.z-depth-4 {
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
-}
+}*/
 .modal {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
 position: fixed;
   max-height: 100%;
   max-width: 100%;
   
 }
 .modal-dialog{
-  margin-top:100px;
+  margin-top:40vh;
 }
 .modal-content {
-  background-color: #2ccc69; /*#42f486*/
+  background-color: transparent; /*#42f486*/
 }
 .modal-header {
   border-width: 0px;
