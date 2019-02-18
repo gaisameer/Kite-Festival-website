@@ -188,7 +188,7 @@ Section
 */
 
 .blur{
-
+  color: #40773e;
 }
 .sections {
   /*filter: blur(0px);*/
@@ -1078,7 +1078,7 @@ td.text-right {
 
 #quest{
   /*background-image: url(../images/swirl.jpg);*/
-  background-color: black;
+  background-color: lightblue;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
