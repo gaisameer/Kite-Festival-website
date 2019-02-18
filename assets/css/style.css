@@ -219,8 +219,11 @@ section .subtitle-half h5 {
   font-weight: 100;
   font-size: 17px;
 }
+.overlay1{
+  background-color: black;
+}
 .overlay {
-  background-color: rgba(0, 0, 0, 0);         /*need change to green #12ea2b*/
+  background-color: #40773e;          /*need change to green #12ea2b*/
   width: 100%;
   min-height: 700px;
 }
@@ -420,6 +423,7 @@ textarea::-ms-input-placeholder
 /* For Menu Section */
 
 .navbar-default {
+  /* background-color: #9CC539;*/
   background-color: rgba(0, 0, 0, 0.8);
   border: 0px;
   margin: 0 auto;
