@@ -502,7 +502,7 @@ textarea::-ms-input-placeholder
   background-attachment: fixed; /**/
   background-position: center;  /**/
   
-  
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1129,14 +1129,16 @@ td.text-right {
 
 @media only screen and (max-width: 600px) {
   .home {
-    background: url(../images/theme_release.jpg) no-repeat center top fixed;
+    background: url(../images/bg2.jpg) no-repeat center top fixed;
   max-height:600px;
   width:auto;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    height: 100vh;
+    
+    height: 50vh;
+    object-fit: contain;
   }
 
   #firstScroll {
