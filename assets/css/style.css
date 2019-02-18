@@ -470,16 +470,19 @@ textarea::-ms-input-placeholder
 /* For Home Section */
 
 .home {
-  background: url(../images/theme_release.jpg) no-repeat center top fixed;
-  background-color: white;
+  background: url(../images/theme_release.jpg) /*no-repeat center top fixed*/;
+  /*background-color: white;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-image: url("../img/redp.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-details {
