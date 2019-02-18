@@ -223,7 +223,7 @@ section .subtitle-half h5 {
   background-color: black;
 }
 .overlay {
-  background-color: #40773e;          /*need change to green #12ea2b*/
+  background-color: #40773e;          /*need change to green #40773e*/
   width: 100%;
   min-height: 700px;
 }
