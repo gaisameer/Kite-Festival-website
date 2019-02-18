@@ -193,9 +193,9 @@ p:last-child {
 Section
 */
 
-.blur{
+/*.blur{
   color: #40773e;
-}
+}*/
 .sections {
   /*filter: blur(0px);*/
   padding-top: 100px;
@@ -429,8 +429,8 @@ textarea::-ms-input-placeholder
 /* For Menu Section */
 
 .navbar-default {
-  /* background-color: #9CC539;*/
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #9CC539;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   border: 0px;
   margin: 0 auto;
 }
@@ -910,12 +910,6 @@ td.text-right {
 .bounce {
   animation: bounce 2s infinite;
 }
-#regSpan {
-  border-radius: 3px;
-  padding: 10px;
-  width: 5px;
-  background-color: #12ea2b;
-}
 
 /*new footer style */
 #footerLogo{
@@ -1022,6 +1016,19 @@ td.text-right {
     border-color: white;
     border-radius: 0px;
 }
+#regSpan {
+  border-radius: 3px;
+  padding: 10px;
+  width: 5px;
+  color: white;
+  background-color: black;
+}
+
+#regSpan:hover, .#regSpan:focus {
+  color: #12ea2b;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
 
 #Regspn{
   padding-right: 5vw;
@@ -1035,6 +1042,7 @@ td.text-right {
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
+
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-collapse.collapse {
@@ -1063,6 +1071,7 @@ td.text-right {
         overflow: hidden!important;
     }
 }
+
 .fixedPosition
  {
     position: fixed;
