@@ -575,7 +575,12 @@ textarea::-ms-input-placeholder
 .portfolio-details img {
   width: 100%;
 }
+@media only screen and (max-width: 480px) {
+.img-responsive z-depth-4{
+  width:360px;
+}
 
+}
 /* For Contact Section */
 
 .contact-details .contact-category {
