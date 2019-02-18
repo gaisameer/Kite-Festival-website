@@ -27,6 +27,12 @@ PRE LOADER
   width: 100%;
   overflow: hidden !important;
 }
+.overlay3{
+  background-color: transparent;
+}
+.blur2{
+  background-color : transparent;
+}
 .loaded {
   width: 128px;
   height: 246.5px;
@@ -519,7 +525,6 @@ textarea::-ms-input-placeholder
 #speakers {
   /*background: url(../images/bg.jpg) no-repeat center top fixed;*/
   background-size: cover;
-  background-color: black;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -546,6 +551,7 @@ textarea::-ms-input-placeholder
   width: 100%;
   overflow: hidden;
 }
+
 .portfolio .title h3 {
   color: #f1f1f1;
 }
@@ -973,7 +979,7 @@ td.text-right {
        background-color: #12ea2b;
        color: #000;
 }
-.speaker-wrap{
+.imagebf-wrap{
   position: relative; 
 }
 .img__description {
@@ -996,7 +1002,7 @@ td.text-right {
   transition: opacity .2s, visibility .2s;
 }
 
-.speaker-wrap:hover .img__description {
+.imagebf-wrap:hover .img__description {
   visibility: visible;
   opacity: 1;
 }
