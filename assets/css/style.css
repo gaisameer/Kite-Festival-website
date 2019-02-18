@@ -198,10 +198,17 @@ Section
 }*/
 .sections {
   /*filter: blur(0px);*/
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   position: relative;
   overflow: hidden;
+}
+.themeimg {
+  /*filter: blur(0px);*/
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+
 }
 .sections.footer {
   padding-bottom: 80px;
@@ -230,8 +237,8 @@ section .subtitle-half h5 {
 }
 .overlay {
   background-color: #40773e;          /*need change to green #40773e*/
-  width: 100%;
-  min-height: 700px;
+  width: auto;
+  /*bmin-height: 700px; */  
 }
 .overlay-fluid-block {
   background-color: rgba(0, 0, 0, 0.5);
@@ -491,8 +498,9 @@ textarea::-ms-input-placeholder
   height: 100vh;
   overflow: hidden;
   background-image: url("../img/redp.jpg");*/
-  /*background-attachment: fixed; /**/
-  /*background-position: center;  /**/
+  background-attachment: fixed; /**/
+  background-position: center;  /**/
+  
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -517,7 +525,7 @@ textarea::-ms-input-placeholder
 /* For About Section */
 
 .about-content {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 
