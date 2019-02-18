@@ -485,8 +485,8 @@ textarea::-ms-input-placeholder
   height: 100vh;
   overflow: hidden;
   background-image: url("../img/redp.jpg");*/
-  background-attachment: fixed; /**/
-  background-position: center;  /**/
+  /*background-attachment: fixed; /**/
+  /*background-position: center;  /**/
   background-size: cover;
   background-repeat: no-repeat;
 }
