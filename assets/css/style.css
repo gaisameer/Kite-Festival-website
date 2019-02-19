@@ -488,8 +488,7 @@ textarea::-ms-input-placeholder
 
 .home {
   background: url(../images/theme_release.jpg) no-repeat center top fixed;
-  max-height:100%;
-  width:auto;/*height:100vh;no-repeat center top fixed*/;
+  /*height:100vh;no-repeat center top fixed*/;
   /*background-color: white;
   background-size: cover;
   -moz-background-size: cover;
@@ -502,7 +501,7 @@ textarea::-ms-input-placeholder
   background-image: url("../img/redp.jpg");*/
   background-attachment: fixed; /**/
   background-position: center;  /**/
-  object-fit: cover;
+  
   
   background-size: cover;
   background-repeat: no-repeat;
