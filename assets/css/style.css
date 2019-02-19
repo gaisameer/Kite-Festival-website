@@ -500,6 +500,7 @@ textarea::-ms-input-placeholder
   background-image: url("../img/redp.jpg");*/
   background-attachment: fixed; /**/
   background-position: center;  /**/
+  object-fit: cover;
   
   background-size: cover;
   background-repeat: no-repeat;
@@ -972,7 +973,7 @@ td.text-right {
   }
 
     ::-moz-selection {
-       background-color: #12ea2b;
+       background-color: #46a843;
        color: #000;
 }
 
