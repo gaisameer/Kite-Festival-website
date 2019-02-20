@@ -1096,6 +1096,21 @@ td.text-right {
     .navbar-collapse{
       background-color: rgba(0, 0, 0, 0.4);
     }
+    #regSpan{
+  border-radius: 3px;
+  padding: 10px;
+  width: 5px;
+  background-color: black;
+}
+
+#regSpan:hover, .#regSpan:focus {
+  color: #12ea2b;
+  background-color: white;
+  
+}
+
+#Regspn{
+  padding-right: 5vw;
 }
 
 .fixedPosition
