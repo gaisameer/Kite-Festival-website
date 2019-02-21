@@ -414,13 +414,13 @@ textarea::-ms-input-placeholder
 }
 .scroll-down a {
   font-size: 50px;
-  color: #f1f1f1;
+  color: transparent;
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
 }
 .scroll-down a:hover {
-  color: #12ea2b;
+  color: transparent;
 }
 .heading {
   margin-bottom: 4rem;
