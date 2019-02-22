@@ -1148,7 +1148,9 @@ td.text-right {
 
 @media only screen and (max-width: 600px) {
   .home {
-    background: url(../images/bg2.jpg) no-repeat center top fixed;
+    background: url(../images/bg2.jpg) center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   max-height:600px;
   width:auto;
     background-size: cover;
