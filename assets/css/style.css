@@ -1274,20 +1274,9 @@ td.text-right {
 }
 
 @media only screen and (max-width: 480px){
-  #contact{
-    background-image: url(../images/logo-01.png) center ;   /* top was there after center */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: 5vh;
-    /* padding-top: 10vh;*/                                 
-  width:auto;
-    background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
-    -o-background-size: contain;
-
-   background:url(assets/images/logoo.png) no-repeat left;
-   object-fit: contain;
- }
+  .footConnect1{
+    background-color: white;
+    background-image: none;
+  }
 
 }
