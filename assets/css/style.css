@@ -1272,11 +1272,13 @@ td.text-right {
   font-size: 1.1rem;
 }
 }
-
-@media only screen and (max-width: 480px){
-  .footConnect1{
-    background-color: white;
-    background-image: none;
-  }
-
+.pall{
+      font-size: 1.2em;
+      line-height:1.5em;
+}
+@media only screen and (max-width: 600px){
+.pall{
+      font-size: 0.7em;
+      line-height:1.2em;
+}
 }
