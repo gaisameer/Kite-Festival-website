@@ -1146,7 +1146,7 @@ td.text-right {
 }
 
 #fb{
-    background-image: url(../images/facebook-normal.png);
+    background-image: url('../images/facebook-normal.png');
     background-size: 80%;
     background-position:center;
     width: 60px;
@@ -1155,7 +1155,7 @@ td.text-right {
     display: inline-block;
 }
 #you{
-    background-image: url(../images/youtube-normal.png);
+    background-image: url('../images/youtube-normal.png');
     background-size: 80% auto;
     background-position:center;
     width: 60px;
@@ -1165,7 +1165,7 @@ td.text-right {
     display: inline-block;
 }
 #insta{
-    background-image: url(../images/instagram-normal.png);
+    background-image: url('../images/instagram-normal.png');
     background-size: 80% ;
     background-position:center;
     width: 60px;
@@ -1174,8 +1174,10 @@ td.text-right {
     display: inline-block;
     margin-left: -3px;
 }
+
+
 #fb1{
-    background-image: url(../images/facebook-black.png);
+    background-image: url('../images/facebook-black.png');
     background-size: 80%;
     background-position:center;
     width: 60px;
@@ -1184,7 +1186,7 @@ td.text-right {
     display: inline-block;
 }
 #you1{
-    background-image: url(../images/youtube-black.png);
+    background-image: url('../images/youtube-black.png');
     background-size: 80% auto;
     background-position:center;
     width: 60px;
@@ -1194,7 +1196,7 @@ td.text-right {
     display: inline-block;
 }
 #insta1{
-    background-image: url(../images/instagram-black.png);
+    background-image: url('../images/instagram-black.png');
     background-size: 80% ;
     background-position:center;
     width: 60px;
@@ -1212,27 +1214,27 @@ td.text-right {
     overflow: hidden;
 }
 #fb:hover{
-    background-image: url(../images/facebook-hover.png);
+    background-image: url('../images/facebook-hover.png');
     cursor: pointer;
 }
 #insta:hover{
-    background-image: url(../images/instagram-hover.png);
+    background-image: url('../images/instagram-hover.png');
     cursor: pointer;
 }
 #you:hover{
-    background-image: url(../images/youtube-hover.png);
+    background-image: url('../images/youtube-hover.png');
     cursor: pointer;
 }
 #fb1:hover{
-    background-image: url(../images/facebook-bhover.png);
+    background-image: url('../images/facebook-bhover.png');
     cursor: pointer;
 }
 #insta1:hover{
-    background-image: url(../images/instagram-bhover.png);
+    background-image: url('../images/instagram-bhover.png');
     cursor: pointer;
 }
 #you1:hover{
-    background-image: url(../images/youtube-bhover.png);
+    background-image: url('../images/youtube-bhover.png');
     cursor: pointer;
 }
 
