@@ -1102,7 +1102,7 @@ td.text-right {
   padding: 10px;
   width: 5px;
   background-color: black;
-}
+  }
 
 #regSpan:hover, .#regSpan:focus {
   color: #12ea2b;
@@ -1250,7 +1250,7 @@ td.text-right {
     -webkit-background-size: contain;
     -o-background-size: contain;
     
-    height: 70vh;                                    /* 50vh*/
+    height: 60vh;                                    /* 50vh*/
     object-fit: contain;
   }
 
@@ -1274,9 +1274,20 @@ td.text-right {
 }
 
 @media only screen and (max-width: 480px){
-  .igg
-  {
-    max-height:100%;
-  }
+  #contact{
+    background-image: url(../images/logo-01.png) center ;   /* top was there after center */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    /* padding-top: 10vh;*/                                 
+  width:auto;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+
+   background:url(assets/images/logoo.png) no-repeat left;
+   object-fit: contain;
+ }
 
 }
