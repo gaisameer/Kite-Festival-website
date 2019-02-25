@@ -1109,6 +1109,7 @@ td.text-right {
   background-color: white;
   
 }
+}
 
 #Regspn{
   padding-right: 5vw;
@@ -1144,42 +1145,6 @@ td.text-right {
   color: white;
 }
 
-
-@media only screen and (max-width: 1080px) {           /* 600 px */
-  .home {
-    background: url(../images/logo-01.png) center ;   /* top was there after center */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: 5vh;
-    /* padding-top: 10vh;*/                                 
-  width:auto;
-    background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
-    -o-background-size: contain;
-    
-    height: 70vh;                                    /* 50vh*/
-    object-fit: contain;
-  }
-
-  #firstScroll {
-  margin-top: 25vh;
-  text-align: center;
-}
-}
-
-.adjustfont{
-
-  font-size:0..8rem;
-}
-
-@media only screen and (max-width: 480px){
-
-
-.adjustfont{
-  font-size: 1.1rem;
-}
-}
 #fb{
     background-image: url(../images/facebook-normal.png);
     background-size: 80%;
@@ -1269,4 +1234,49 @@ td.text-right {
 #you1:hover{
     background-image: url(../images/youtube-bhover.png);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1080px) {           /* 600 px */
+  .home {
+    background: url(../images/logo-01.png) center ;   /* top was there after center */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    /* padding-top: 10vh;*/                                 
+  width:auto;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    
+    height: 70vh;                                    /* 50vh*/
+    object-fit: contain;
+  }
+
+  #firstScroll {
+  margin-top: 25vh;
+  text-align: center;
+}
+}
+
+.adjustfont{
+
+  font-size:0..8rem;
+}
+
+@media only screen and (max-width: 480px){
+
+
+.adjustfont{
+  font-size: 1.1rem;
+}
+}
+
+@media only screen and (max-width: 480px){
+  .igg
+  {
+    max-height:100%;
+  }
+
 }
