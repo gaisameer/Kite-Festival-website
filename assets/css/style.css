@@ -1145,7 +1145,7 @@ td.text-right {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {           /* 600 px */
   .home {
     background: url(../images/logo-01.jpeg) center ;   /* top was there after center */
     background-attachment: fixed;
