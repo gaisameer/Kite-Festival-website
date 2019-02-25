@@ -1135,7 +1135,6 @@ td.text-right {
 
 #quest{
   /*background-image: url(../images/swirl.jpg);*/
-  background-color: lightblue;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1167,4 +1166,107 @@ td.text-right {
   margin-top: 25vh;
   text-align: center;
 }
+}
+
+.adjustfont{
+
+  font-size:0..8rem;
+}
+
+@media only screen and (max-width: 480px){
+
+
+.adjustfont{
+  font-size: 1.1rem;
+}
+}
+#fb{
+    background-image: url(../images/facebook-normal.png);
+    background-size: 80%;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    display: inline-block;
+}
+#you{
+    background-image: url(../images/youtube-normal.png);
+    background-size: 80% auto;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    margin-left: -3px;
+    display: inline-block;
+}
+#insta{
+    background-image: url(../images/instagram-normal.png);
+    background-size: 80% ;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: auto;
+    display: inline-block;
+    margin-left: -3px;
+}
+#fb1{
+    background-image: url(../images/facebook-black.png);
+    background-size: 80%;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    display: inline-block;
+}
+#you1{
+    background-image: url(../images/youtube-black.png);
+    background-size: 80% auto;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    margin-left: -3px;
+    display: inline-block;
+}
+#insta1{
+    background-image: url(../images/instagram-black.png);
+    background-size: 80% ;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: auto;
+    display: inline-block;
+    margin-left: -3px;
+    }
+.couple{
+    width: 184px;
+    height: 55px;
+    margin: 0px auto;
+    display: block;
+    border-radius: 15px; 
+    overflow: hidden;
+}
+#fb:hover{
+    background-image: url(../images/facebook-hover.png);
+    cursor: pointer;
+}
+#insta:hover{
+    background-image: url(../images/instagram-hover.png);
+    cursor: pointer;
+}
+#you:hover{
+    background-image: url(../images/youtube-hover.png);
+    cursor: pointer;
+}
+#fb1:hover{
+    background-image: url(../images/facebook-bhover.png);
+    cursor: pointer;
+}
+#insta1:hover{
+    background-image: url(../images/instagram-bhover.png);
+    cursor: pointer;
+}
+#you1:hover{
+    background-image: url(../images/youtube-bhover.png);
+    cursor: pointer;
 }
