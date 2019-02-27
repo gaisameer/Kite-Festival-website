@@ -488,7 +488,7 @@ textarea::-ms-input-placeholder
 /* For Home Section */
 
 .home {
-  background: url(../images/theme_release.jpg) no-repeat center top fixed;
+  background: url(../images/logo.png) no-repeat center top ;
   /*height:100vh;no-repeat center top fixed*/;
   /*background-color: white;
   background-size: cover;
@@ -505,8 +505,8 @@ textarea::-ms-input-placeholder
   
   
   
-  object-fit: cover;
-  background-size: cover;
+  object-fit: contain;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -1258,13 +1258,13 @@ td.text-right {
     height: 50vh;                                   
     object-fit: contain;
   }} */
-  @media only screen and (max-width: 600px) {           /* 600 px */
+ /* @media only screen and (max-width: 600px) {          
     .home {
-      background: url(../images/logo.png) center center;   /* top was there after center */
+      background: url(../images/logo.png) center center;   
       background-attachment: fixed;
       background-repeat: no-repeat;
       margin-top: 5vh;
-      /* padding-top: 10vh;*/                                 
+                                     
     width:auto;
       background-size: contain;
       -moz-background-size: contain;
@@ -1272,7 +1272,7 @@ td.text-right {
       -o-background-size: contain;
       
       
-      height: 70vh;                                    /* 50vh*/
+      height: 70vh;                                    
       object-fit: contain;
     }
 
@@ -1280,7 +1280,7 @@ td.text-right {
   margin-top: 25vh;
   text-align: center;
 }
-}
+}           */
 
 .adjustfont{
 
