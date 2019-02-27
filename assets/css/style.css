@@ -1255,7 +1255,7 @@ td.text-right {
 
     height: 50vh;                                    /* 50vh*/
     object-fit: contain;
-  }
+  }}
   @media only screen and (max-width: 600px) {           /* 600 px */
     .home {
       background: url(../images/logo.png) center;   /* top was there after center */
@@ -1271,7 +1271,7 @@ td.text-right {
       
       height: 70vh;                                    /* 50vh*/
       object-fit: contain;
-    }
+    }}
 
   #firstScroll {
   margin-top: 25vh;
