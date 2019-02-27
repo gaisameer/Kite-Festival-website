@@ -1260,7 +1260,7 @@ td.text-right {
   }} */
   @media only screen and (max-width: 600px) {           /* 600 px */
     .home {
-      background: url(../images/logo.png) center center;   /* top was there after center */
+      background: url(../images/portfolio-bg.jpg) center center;   /* top was there after center */
       background-attachment: fixed;
       background-repeat: no-repeat;
       margin-top: 5vh;
