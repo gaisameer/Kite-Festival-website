@@ -503,6 +503,8 @@ textarea::-ms-input-placeholder
   background-attachment: fixed; /**/
   background-position: center;  /**/
   
+  height: 150vh;
+  
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1239,23 +1241,23 @@ td.text-right {
 }
 
 
-@media only screen and (max-width: 1200px) {           /* 600 px */
+/*@media only screen and (max-width: 1200px) {          
   .home {
-    background: url(../images/logo-01.png) center top ;   /* top was there after center */
+    background: url(../images/logo-01.png) center top ;   /* top was there after center *//*
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 5vh;
     /* padding-top: 10vh;*/                                 
-  width:auto;
+ /* width:auto;
     background-size: contain;
     -moz-background-size: contain;
     -webkit-background-size: contain;
     -o-background-size: contain;
     
 
-    height: 50vh;                                    /* 50vh*/
+    height: 50vh;                                   
     object-fit: contain;
-  }}
+  }} */
   @media only screen and (max-width: 600px) {           /* 600 px */
     .home {
       background: url(../images/logo.png) center;   /* top was there after center */
