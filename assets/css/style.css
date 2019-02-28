@@ -1261,7 +1261,7 @@ td.text-right {
   }} */
   @media only screen and (max-width: 600px) {          
     .home {
-      background: url(../images/300px.png) center;   
+      background: url(../images/logo.png) center;   
       background-attachment: fixed;
       background-repeat: no-repeat;
       margin-top: 5vh;
