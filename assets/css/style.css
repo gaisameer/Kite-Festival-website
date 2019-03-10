@@ -1137,7 +1137,7 @@ td.text-right {
     color: red;
 }
 
-#quest{
+#spons{
   /*background-image: url(../images/swirl.jpg);*/
   background-size: cover;
   -moz-background-size: cover;
@@ -1208,6 +1208,7 @@ td.text-right {
     display: inline-block;
     margin-left: -3px;
     }
+
 .couple{
     width: 184px;
     height: 55px;
@@ -1216,6 +1217,87 @@ td.text-right {
     border-radius: 15px; 
     overflow: hidden;
 }
+/*@media only screen and (max-width: 480px){
+  .couple{
+    width: 184px;
+    height: 55px;
+    margin: 0px auto;
+    display: block;
+    border-radius: 15px; 
+    overflow: hidden;
+    #fb{
+    background-image: url('../images/facebook-normal.png');
+    background-size: 80%;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    display: inline-block;
+}
+#you{
+    background-image: url('../images/youtube-normal.png');
+    background-size: 80% auto;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    margin-left: -3px;
+    display: inline-block;
+}
+#insta{
+    background-image: url('../images/instagram-normal.png');
+    background-size: 80% ;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: auto;
+    display: inline-block;
+    margin-left: -3px;
+}
+
+
+#fb1{
+    background-image: url('../images/facebook-black.png');
+    background-size: 80%;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    display: inline-block;
+}
+#you1{
+    background-image: url('../images/youtube-black.png');
+    background-size: 80% auto;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: 0px auto;
+    margin-left: -3px;
+    display: inline-block;
+}
+#insta1{
+    background-image: url('../images/instagram-black.png');
+    background-size: 80% ;
+    background-position:center;
+    width: 60px;
+    height: 55px;
+    margin: auto;
+    display: inline-block;
+    margin-left: -3px;
+    }
+
+.couple{
+    width: 184px;
+    height: 55px;
+    margin: 0px auto;
+    display: block;
+    border-radius: 15px; 
+    overflow: hidden;
+}
+*/
+
+
+
 #fb:hover{
     background-image: url('../images/facebook-hover.png');
     cursor: pointer;
